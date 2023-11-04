@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>     
+    Name <br>
+    <input type="text"/>
+    </form>
+    <br>
+    <form action="process.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name"/>
+    <input type="submit" value="Gönder">
+    <button type="submit">Gönder2 </button>
+    <input type="reset" value="sıfırla">
+    <button type="reset"> sıfırla</button><br>
+    <label for="email">EMAİL</label><br>
+    <input type="email" name="email" id="email"> <br>
+    <input type="submit">   
+
+
+<br>
+    <label for="password" id="password">Password</label> <br>
+    <input type="password" id="password" name="password">
+    <br><label for="date">Date</label><br>
+    <input type="date" id="date" name="date">
+    Gender <br>
+    Male 
+    <input type="radio" name="gender" value="male" checked>
+    Female
+    <input type="radio" name="gender" value="female">
+   <br> Hobbies <br>
+   
+    <input type="checkbox" name="tech" id="tech" checked>
+    tech <br> music <br>
+    <input type="checkbox" name="music" id="music">
+    art <br>
+    <input type="checkbox" name="art" id="art">
+    Degree <br>
+    <select name="degree" id="degree">
+        <option value="bachelor">LİSANS</option>
+        <option value="msc">Yüksek lisans</option>
+        <option value="phd" selected>doktora</option>
+    </select>
+    <br>
+     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+</form>
+</body>
+</html>
